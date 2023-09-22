@@ -1,0 +1,196 @@
+  /* this is body css */
+#home-body{
+    background-image: url(image/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.body{
+     background-image: linear-gradient(to right, #ff0000, green, yellow, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.body-about{
+     background-image: url(image/bg3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+  /* this is home css */
+  #social-media-logo ul {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    margin: -100px 100px 0px 87px;
+    float: right;
+
+}
+#social-media-logo ul li{
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: white;
+    list-style-type: none;
+    float: right;
+}
+#home-logo{
+    text-align: center;
+    margin-top: 10%;
+}
+.home-text{
+    text-align: center;
+}
+.home-h1{
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: bold;
+    margin: 8px 0px 8px 0px ;
+}
+#home-h1{
+    font-size: 4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+#home-p{
+    color: aliceblue;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;   
+}
+#home-div{
+    margin-top:40px;  
+}
+.home-button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color:rgba(22, 20, 20, 0.4);
+    border: 2px solid white;
+    color: aliceblue;
+}
+.home-button:hover{
+    border: 2px solid red;
+    box-shadow: 0px 0px 10px black;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+    /* this is our menu css */
+.dish{
+    height: 170px;
+    width: 160px;
+    background-color: aqua;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 0.8em;
+}
+.dish:hover{
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    
+    font-size: 1em;
+
+}
+.dish img{
+    height: 135px;
+    width: 160px;
+    margin: 0px;
+}
+.dish h3{
+    margin-top: 2px;
+}
+.menu{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.our-menu-h2{
+    background-image: linear-gradient(to right, red, yellow, chartreuse);
+    color: rgb(9, 14, 19);
+    margin: 10px 0px 10px 0px;
+    border-radius: 25px;
+    
+    
+    
+}
+.our-menu-h2 a{
+    text-decoration: none;
+    margin: 0px 25px 0px 25px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+.our-menu-h2 a:hover{
+    color: red;
+}
+   /* this is contact us css */
+#contact-Us{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contact-input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.contact-input:hover{
+    box-shadow: 0px 0px 10px black;
+}
+#contact-input-button{
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#contact-input-button:hover{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid white;
+    width: 260px;
+    height: 30px;
+}
+/* this is about css */
+#menu {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px ;
+    color: white;
+}
+.about-menu {
+    padding: 0px 20px 0px 20px;
+    margin: 21px 0px 24px 0px;
+    background-color:rgba(0, 0, 0, 0.57); 
+    border: 2px solid white;
+}
+.about-menu:hover{
+    background-color:rgba(3, 3, 3, 0.9);
+    box-shadow: 0px 0px 40px black;
+}
+.about-menu h2{     
+    text-align: center;
+}
+.about-menu ul li{
+    margin: 21px 0px 24px 0px;
+    font-size: 1.2em;
+    color: white;
+    list-style-type: disc;    
+}
+.about-menu ul li a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
